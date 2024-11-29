@@ -20,13 +20,13 @@ const TestimonialSection = () => {
   ];
 
   return (
-    <div className="pt-5 pb-12 px-40 bg-white">
+    <div className="pt-5 pb-12 lg:px-40 bg-white">
       <h1 className=" text-center text-5xl font-bold mb-20">Testimonial</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-auto place-items-center">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="w-[358px] h-[415px] bg-white rounded-[20px] shadow-inner shadow-[rgba(0,0,0,0.25)] p-10 flex flex-col"
+            className="w-[358px] h-[415px] bg-white rounded-[20px] shadow-inner shadow-[rgba(0,0,0,0.25)] p-10 flex flex-col "
           >
             {/* Rating */}
             <div className="flex mb-4">

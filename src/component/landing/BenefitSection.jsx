@@ -5,13 +5,13 @@ import ilustrasi1 from "../../assets/ilustrasi2.svg";
 const BenefitSection = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8 px-16 py-12">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:px-16 py-12">
         {/* Bagian Kiri - Gambar */}
         <div className=" md:w-1/2 flex">
           <img
             src={ilustrasi1} // Ganti dengan path gambar yang sesuai
             alt="Laporan Mudah"
-            className="w-97 h-98"
+            className="md:max-w-97 md:max-h-98"
           />
         </div>
 

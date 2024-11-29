@@ -11,9 +11,9 @@ import ilustrasiProcedure from "../../assets/ilustrasiProcedure.svg";
 
 const ProcedureSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center py-8 px-14">
+    <div className="flex flex-col items-center justify-center py-8 md:px-14">
       <h1 className="text-5xl font-bold mb-20">Prosedur Lapor</h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-14 items-start mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-14 items-start mb-10">
         {/* Step 1 */}
         <div className="flex gap-4">
           <div className="text-orange-700 flex items-center">

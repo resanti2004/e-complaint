@@ -4,13 +4,13 @@ import ilustrasiAbout from "../../assets/ilustrasiAbout.svg";
 const AboutSection = () => {
   return (
     <section>
-      <div className="container mx-auto py-20 px-14">
+      <div className="container mx-auto py-20 md:px-14">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-11">
           <div className="max-w-2xl p-5">
             <h2 className="text-4xl font-bold text-neutral-900 sm:text-4xl mb-7 mt-5">
               Tentang Kami
             </h2>
-            <p className=" text-neutral-900 text-xl font-normal">
+            <p className=" text-neutral-900 md:text-xl font-normal">
               Laporin adalah platform pengaduan digital yang mempermudah
               masyarakat Indonesia menyampaikan keluhan dan saran dengan cepat,
               transparan, dan aman. Kami menghadirkan layanan yang mengutamakan

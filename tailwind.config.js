@@ -26,9 +26,10 @@ export default {
         98: "30.3125rem", //485px
       },
       maxWidth: {
-        custom: "72rem", // Example for 1152px
-        card: "24rem", // Example for 384px
-        content: "80%", // Example for percentage
+        97: "29.25rem", //468px
+      },
+      maxHeight: {
+        98: "30.3125rem", //485px
       },
     },
   },
