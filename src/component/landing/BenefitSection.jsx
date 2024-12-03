@@ -16,7 +16,7 @@ const BenefitSection = () => {
         </div>
 
         {/* Bagian Kanan - Konten */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 px-4">
           <div className="space-y-10">
             {/* Cepat, Tuntas */}
             <div className="flex gap-4 md:w-3/4 md:ml-auto">

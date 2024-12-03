@@ -4,7 +4,7 @@ import NavigationBar from "../component/NavigationBar";
 import AboutSection from "../component/landing/AboutSection";
 import BenefitSection from "../component/landing/BenefitSection";
 import ProcedureSection from "../component/landing/ProcedureSection";
-import Footer from "../component/Footer";
+import FooterBar from "../component/FooterBar";
 import TestimonialSection from "../component/landing/TestimonialSection";
 
 const Landing = () => {
@@ -16,7 +16,7 @@ const Landing = () => {
       <BenefitSection />
       <ProcedureSection />
       <TestimonialSection />
-      <Footer />
+      <FooterBar />
     </>
   );
 };

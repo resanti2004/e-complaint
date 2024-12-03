@@ -21,7 +21,9 @@ const TestimonialSection = () => {
 
   return (
     <div className="pt-5 pb-12 lg:px-40 bg-white">
-      <h1 className=" text-center text-5xl font-bold mb-20">Testimonial</h1>
+      <h1 className=" text-center md:text-5xl text-3xl font-bold mb-20">
+        Testimonial
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-auto place-items-center">
         {testimonials.map((testimonial, index) => (
           <div

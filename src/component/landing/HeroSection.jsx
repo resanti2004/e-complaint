@@ -4,13 +4,13 @@ import bgHero from "../../assets/bg-hero.jpg";
 const HeroSection = () => {
   return (
     <>
-      <div className="relative bg-gray-900 text-white">
+      <div className="relative bg-white text-white">
         {/* Background Image */}
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 flex justify-center items-center">
           <img
             src={bgHero}
             alt="Background"
-            className="w-full h-screen bg-no-repeat bg-cover bg-center"
+            className="max-h-screen max-w-full bg-no-repeat bg-cover bg-center"
           />
           <div className="absolute w-full h-screen inset-0 bg-black opacity-50"></div>
         </div>

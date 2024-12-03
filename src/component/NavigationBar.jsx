@@ -53,7 +53,7 @@ const NavigationBar = () => {
         </div>
 
         {/* Menu Navigasi */}
-        <div id="hs-navbar-alignment" className="hidden sm:block sm:order-2">
+        <div id="hs-navbar-alignment" className="hidden md:block md:order-2">
           <div className="flex flex-col gap-8 mt-5 sm:flex-row sm:items-center sm:mt-0">
             <a className="font-medium text-white hover:font-bold" href="#">
               Beranda
