@@ -1,7 +1,10 @@
 import React from "react";
 import bgHero from "../../assets/bg-hero.jpg";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="relative bg-white text-white">
@@ -26,7 +29,10 @@ const HeroSection = () => {
               publik yang lebih cepat, aman, dan memuaskan. Mari bersama
               wujudkan perubahan!
             </p>
-            <button className="mt-2 px-6 py-1 bg-primary hover:bg-blue-700 text-white rounded-lg text-lg font-medium">
+            <button
+              onClick={() => navigate(`/pengaduan`)}
+              className="mt-2 px-6 py-1 bg-primary hover:bg-blue-700 text-white rounded-lg text-lg font-medium"
+            >
               LAPOR
             </button>
           </div>
