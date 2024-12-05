@@ -9,6 +9,8 @@ import DetailPengaduan from "./component/statusPengaduan/DetailPengaduan";
 import ChatBot from "./pages/ChatBot";
 import DetailBerita from "./component/berita/DetailBerita";
 import Landing from "./pages/Landing";
+import AllStatusPengaduan from "./component/pengaduan/AllStatusPengaduan";
+import Profile from "./component/profile/Profile";
 
 const App = () => {
   return (
@@ -16,7 +18,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/pengaduan" element={<PengaduanPage />} />
-        <Route path="/status-pengaduan" element={<StatusPengaduanPage />} />
+        <Route path="/status-pengaduan" element={<AllStatusPengaduan />} />
         <Route
           path="/status-pengaduan/detail/:id"
           element={<DetailPengaduan />}
@@ -25,6 +27,7 @@ const App = () => {
         <Route path="/berita" element={<NewsPage />} />
         <Route path="/berita/detail/:id" element={<DetailBerita />} />
         <Route path="/pengaduan/:category" element={<FormSection />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </Router>
   );
